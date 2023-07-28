@@ -8,7 +8,7 @@ const dbConnect = require("./db/dbConnect.js"); // require database connection
 const User = require("./db/userModel.js")
 dbConnect(); // execute database connection 
 
-app.use((request, ressponse, next) => {
+app.use((request, response, next) => {
   response.setHeader("Access-Control-Allow-Origin", "*");
   response.setHeader(
     "Access-Control-Allow-Headers",
