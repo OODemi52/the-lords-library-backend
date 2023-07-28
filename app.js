@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const app = express();
 const bodyParser = require('body-parser');
 const auth = require("./auth");
-const mongoose = require("./db/node_modules/mongoose");
+const mongoose = require("mongoose");
 const dbConnect = require("./db/dbConnect.js"); // require database connection
 const User = require("./db/userModel.js")
 dbConnect(); // execute database connection 
