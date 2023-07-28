@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "mongoose": "^7.4.0"
+    "mongoose": "^7.4.1"
   }
 }
