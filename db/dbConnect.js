@@ -6,7 +6,6 @@ async function dbConnect() {
       process.env.DB_URL,
     {}
   )
-
   .then(() => {
     console.log("Successfully connected to MongoDB Atlas!");
   })
